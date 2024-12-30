@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 62.5%;
+    width: 100%;
+    overflow-x: hidden;
+}
+
+.sup_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 1rem;
+}
+
+.sup_icons a {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: black;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.sup_icons img {
+    width: 5rem;
+}
+
+.sup_icons img:hover, a:hover {
+    border-radius: 1rem;
+    background-color: rgb(225, 225, 225);
+}
+
+.Nav_Bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 12rem;
+}
+
+.Nav_Bar img {
+    width: 30rem;
+}
+
+.Search {
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+.search-container {
+    position: relative;
+    width: 60rem;
+}
+
+.search-container input {
+    width: 100%;
+    height: 4rem;
+    border-radius: 2.3rem;
+    border: 1px solid rgba(0, 0, 0, 0.216);
+    padding-left: 5rem;
+    padding-right: 5rem;
+    font-size: 1.6rem;
+}
+
+.search-container .search-icon {
+    position: absolute;
+    top: 50%;
+    left: 1.5rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.search-container .mic-icon {
+    position: absolute;
+    top: 50%;
+    right: 1.5rem;
+    transform: translateY(-50%);
+    width: 2.5rem;
+    height: 2.5rem;
+}
